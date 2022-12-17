@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.main-f1{
+    background-color: rgb(255, 249, 242);
+    padding: 2rem 6rem 6rem 6rem;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fiber-logo{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0.5rem 0;
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+.link-1{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(122, 122, 122);
+}
+.humburger-menu{
+    display: none;
+}
+.link:hover{
+    color: rgb(0, 0, 0);
+   
+}
+.subs{
+    display: flex;
+    gap: 1rem;
+}
+.sign-up-l{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sign-in{
+    font-weight: bolder;
+    margin: 0.7rem 0;
+}
+.button1{
+    padding: 0.7rem 1.2rem;
+    border: 1px solid rgb(86, 27, 219);
+    border-radius: 0.4rem;
+    background-color: rgb(86, 27, 219);
+}
+/* fiber introduction section */
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.five-stars{
+       padding-top: 8rem;
+       display: flex;
+       gap: 1rem;
+}
+section p{
+    color: rgb(122, 122, 122);
+}
+.rating-p{
+    margin: 0;
+}
+.img-fiber{
+    width: 70%;
+}
+.img-fiber img{
+    width: 100%;
+}
+h1{
+    margin: 0.8rem 0;
+    font-size: 3.5rem;
+}
+.text-p{
+    margin: 0.8rem 0;
+    font-size: 1.45rem;
+}
+.see-more-f{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.button2{
+    padding: 1rem 1.2rem;
+    border: 1px solid rgb(86, 27, 219);
+    border-radius: 0.4rem;
+    background-color: rgb(86, 27, 219);
+}
+.button-l{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+.view-p{
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(86, 27, 219);
+}
+.condition{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.credit, .free{
+    display: flex;
+    gap: 0.5rem;
+}
+/* why fiber section div code */
+.why-fiber{
+    padding: 2rem 6rem;
+}
+h5{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: rgb(86, 27, 219); 
+}
+h2{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+}
+.tools{
+    margin-top: 4rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+h6{
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+}
+.tools-p{
+    color: rgb(122, 122, 122);
+    font-size: 1.2rem;
+}
+.more-fiber-2{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1rem 3rem 0rem ;
+    background-color:rgb(86, 27, 219); 
+}
+
+.button3{
+    padding: 1rem 1.2rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    background-color: rgb(255, 255, 255);
+}
+.text-2{
+   padding-top: 5rem;
+}
+h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.information-abt{
+    font-size: 1.5rem;
+    color: rgb(223, 219, 219);
+}
+.button-li{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(86, 27, 219);
+}
+.img-page{
+    width: 120%;
+}
+.img-page img{
+    margin-top: 3rem;
+    width: 100%;
+}
+/* people's opinion section div */
+.people{
+    padding: 1rem 6rem;
+}
+.blogs{
+    padding: 2rem 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.sarah, .mathew, .janice{
+    padding: 1rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 0.7rem;
+}
+.p-name{
+    display: flex;
+    gap: 1rem;
+}
+.full-name{
+    margin: 0.3rem 0;
+    font-weight: bolder;
+    color: rgb(86, 27, 219);
+}
+.job{
+    margin: 0;
+}
+.opinion{
+    color: rgb(42, 42, 42);
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.p-portfolio{
+    text-align: center;
+}
+.button4{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 0.5rem;
+}
+.button4 a{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(86, 27, 219);
+    text-decoration: none;
+}
+/* last part yayyy */
+.last-part{
+    background-color: rgb(255, 249, 242);
+}
+footer{
+    padding: 2rem 6rem;
+    display: flex;
+}
+.p3-des{
+    color: rgb(122, 122, 122);
+    font-size: 1.5rem;
+}
+.fiber-last-part{
+    margin-top: 1rem;
+}
+.ft-links{
+    display: flex;
+    justify-content: space-between;
+}
+.last-links{
+    padding: 0 2.2rem;
+}
+footer li{
+    padding: 0.5rem 0;
+    list-style-type: none;
+}
+.titre{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.last-ft-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(122, 122, 122);
+}
+@media screen and (max-width:600px){
+    .main-f1{
+        background-color: rgb(255, 249, 242);
+        padding: 2rem;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .fiber-logo{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin: 0.5rem 0;
+    }
+    section{
+        margin-top: 2rem;
+        display: block;
+    }
+    .five-stars{
+      display: none;
+    }
+    .img-fiber{
+        width: 100%;
+    }
+    .img-fiber img{
+        width: 100%;
+    }
+    h1{
+        font-size: 3.4rem;
+    }
+    .text-p{
+        margin: 0.8rem 0;
+        font-size: 1.45rem;
+    }
+    .condition{
+      display: block;
+    }
+    .why-fiber{
+        padding: 2rem 
+    }
+    .humburger-menu{
+        display: block;
+        position: relative;
+    }
+    .hum-m{
+        position: relative;
+        float: right;
+        margin-top: 0.5rem;
+    }
+    .humb{
+       width: 2rem;
+       height: 4px;
+       background-color: black;
+       position: relative;
+       display: inline-block;
+    }
+    .humb::before{
+        content: " ";
+        width: 2rem;
+        height: 4px;
+        background-color: black;
+        transform: translateY(-9px);
+        position: absolute;
+    }
+    .humb::after{
+        content: " ";
+        width: 2rem;
+        height: 4px;
+        background-color: black;
+        transform: translateY(9px);
+        position: absolute;
+    }
+    .nav{
+        display: none;
+      }
+      .subs{
+          display: none;
+      }
+      .drop-down{
+          display: none;
+       padding: 1rem 2rem;
+       background-color: rgb(255, 249, 242);
+       border: 1px solid rgb(255, 249, 242);
+       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.155);
+       position: absolute;
+       right: 0px;
+       top: 40px;    
+      }
+      .humburger-menu:hover .drop-down{
+          display: block;
+      }
+      .subs-d{
+          margin-top: 1rem;
+          display: flex;
+          column-gap: 1rem;
+          justify-content: center;
+          align-items: center;
+      }
+      nav ul{
+          margin: 0;
+          display: flex;
+          column-gap: 1rem ;
+          padding: 0;
+      }
+    .tools{
+        margin-top: 2rem;
+      display: block;
+    }
+    h6{
+        font-size: 1.3rem;
+        margin: 0.7rem 0;
+    }
+    .tools-p{
+        color: rgb(122, 122, 122);
+        font-size: 1.2rem;
+    }
+    .more-fiber-2{
+      display: block;
+      padding: 1rem;
+    }
+    .text-2{
+       padding-top: 1rem;
+    }
+    .img-page{
+        width: 100%;
+    }
+    .people{
+        padding: 2rem ;
+    }
+    .blogs{
+        padding: 1rem 0;
+     display: block;
+    }
+    .sarah, .mathew, .janice{
+      margin: 1rem 0;
+    }
+    .last-part{
+        background-color: rgb(255, 249, 242);
+    }
+    footer{
+        padding: 2rem ;
+       display: block;
+    }
+    .p3-des{
+        color: rgb(122, 122, 122);
+        font-size: 1.5rem;
+    }
+    .fiber-last-part{
+        margin-top: 1rem;
+    }
+    .ft-links{
+      display: block;
+    }
+    .last-links{
+        padding: 0 ;
+    }
+    footer li{
+        padding: 0.5rem 0;
+        list-style-type: none;
+    }
+    .titre{
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+    .last-ft-link{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: rgb(122, 122, 122);
+    }
+}
